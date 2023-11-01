@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  /* width: 100vw; */
+  max-width: 100vw;
+  /* min-height: 100vh; */
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.sidebar {
+  border-left: 1px solid black;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.todos {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 10px;
+}
+
+.new input,button {
+  padding: 8px;
+}
+
+.to-do {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size:larger;
+}
